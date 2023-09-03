@@ -22,4 +22,8 @@ class HomeController < ApplicationController
 
     def cards
     end
+
+    def buttons
+    end
+
 end

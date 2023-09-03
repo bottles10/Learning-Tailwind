@@ -11,5 +11,6 @@ Rails.application.routes.draw do
   get 'flexbox', controller: "home", to: "home/flexbox"
   get 'grid', controller: "home", to: "home/grid"
   get 'cards', controller: "home", to: "home/cards"
+  get 'buttons', controller: "home", to: "home/buttons"
   root 'home#index'
 end
