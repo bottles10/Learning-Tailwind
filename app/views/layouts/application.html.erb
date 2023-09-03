@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TailwindPractice</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+    <nav class="container mx-auto mt-5 mb-28 px-5">
+      <div class="menu flex justify-between">
+        <%= link_to "Home", root_path %>
+        <%= link_to "Kitchen Sink", kitchen_sink_path %>
+        <%= link_to "Gradients", gradients_path %>
+        <%= link_to "Container", container_path %>
+        <%= link_to "Responsive", responsive_path %>
+        <%= link_to "Flexbox", flexbox_path %>
+        <%= link_to "Grid", grid_path %>
+        <%= link_to "Cards", cards_path %>
+       </div>
+    </nav>
+
+    <div class="">
+      <%= yield %>
+    </div>
+  </body>
+</html>
