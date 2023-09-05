@@ -12,5 +12,6 @@ Rails.application.routes.draw do
   get 'grid', controller: "home", to: "home/grid"
   get 'cards', controller: "home", to: "home/cards"
   get 'buttons', controller: "home", to: "home/buttons"
+  get 'forms', controller: "home", to: "home/forms"
   root 'home#index'
 end

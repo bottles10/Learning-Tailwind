@@ -26,4 +26,7 @@ class HomeController < ApplicationController
     def buttons
     end
 
+    def forms
+    end
+
 end
