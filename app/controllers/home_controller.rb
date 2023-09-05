@@ -29,4 +29,8 @@ class HomeController < ApplicationController
     def forms
     end
 
+    def beginner_tailwind
+        @exclude_navbar = true
+    end
+
 end

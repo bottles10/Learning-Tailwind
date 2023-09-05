@@ -13,5 +13,6 @@ Rails.application.routes.draw do
   get 'cards', controller: "home", to: "home/cards"
   get 'buttons', controller: "home", to: "home/buttons"
   get 'forms', controller: "home", to: "home/forms"
+  get 'beginner_tailwind', controller: "home", to: "home/beginner_tailwind"
   root 'home#index'
 end
