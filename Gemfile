@@ -77,3 +77,5 @@ end
 group :production do
   gem "pg"
 end
+
+gem "erb-formatter", "~> 0.4.3"
